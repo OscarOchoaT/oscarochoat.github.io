@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+.skills i {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.random-fact {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.social-links a {
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
