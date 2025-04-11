@@ -1,40 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oscar Ochoa</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="container">
-        <h1>¡Hola! Soy Oscar Ochoa 🚀</h1>
-        <p>Entrenador personal y desarrollador apasionado por el código y el fitness. Me encanta ayudar a las personas a mejorar su salud y crear soluciones digitales.</p>
-        
-        <div class="skills">
-            <i class="fab fa-js-square"></i>
-            <i class="fab fa-python"></i>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-react"></i>
-        </div>
-        
-        <div class="random-fact" id="fact"></div>
-        
-        <div class="social-links">
-            <a href="https://github.com/oscarochoat" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/oscarochoat" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-    
-    <script>
-        const facts = [
-            "Puedo hacer sentadillas mientras programo 🏋️‍♂️",
-            "Mi color favorito es el celeste 💙",
-            "Soy entrenador personal y programador a la vez! 💪💻"
-        ];
-        document.getElementById("fact").innerText = facts[Math.floor(Math.random() * facts.length)];
-    </script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oscar Ochoa | Software Developer Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
